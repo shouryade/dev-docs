@@ -1,39 +1,51 @@
-site_name: aaramsesoun.ga
+site_name: Aaram Se Sounga
 # site_url: https://-willett.github.io/mkdocs-material-youtube-tutorial/
 theme:
   name: material
-  logo: material/library
   features:
-    - navigation.tabs
+    - content.action.edit
+    - content.action.view
+    - content.code.annotatate
+    - content.tooltips
+    - navigation.footer
+    - navigation.indexes
     - navigation.sections
-    - toc.integrate
+    - navigation.tabs
     - navigation.top
+    - navigation.tracking
+    - search.share
+    - toc.follow
     - search.suggest
     - search.highlight
     - content.tabs.link
-    - content.code.annotation
     - content.code.copy
   language: en
   palette:
     - scheme: default
       toggle:
-        icon: material/toggle-switch-off-outline
+        icon: material/lightbulb-on-outline
         name: Switch to dark mode
       primary: indigo
       accent: indigo
     - scheme: slate
       toggle:
-        icon: material/toggle-switch
+        icon: material/lightbulb-outline
         name: Switch to light mode
       primary: indigo
       accent: indigo
-
-plugins:
-  - search:
-      separator: '[\s\-,:!=\[\]()"/]+|(?!\b)(?=[A-Z][a-z])|\.(?!\d)|&[lg]t;'
-      lang: [en]
+  font:
+    text: Roboto
+    code: Roboto Mono
+  icon:
+    logo: material/sleep
+  plugins:
+    - search:
+        separator: '[\s\-,:!=\[\]()"`/]+|\.(?!\d)|&[lg]t;|(?!\b)(?=[A-Z][a-z])'
+        lang: [en]
 
 extra:
+  annotate:
+    json: [.s2]
   social:
     - icon: fontawesome/brands/github
       link: https://github.com/shouryade
@@ -43,24 +55,45 @@ extra:
       link: https://www.linkedin.com/in/shouryade/
 
 markdown_extensions:
-  - toc:
-      title: On this page
-      permalink: true
-  - pymdownx.highlight:
-      anchor_linenums: true
-  - pymdownx.inlinehilite
-  - pymdownx.snippets
+  - abbr
   - admonition
+  - attr_list
+  - def_list
+  - footnotes
+  - md_in_html
+  - toc:
+      permalink: true
   - pymdownx.arithmatex:
       generic: true
-  - footnotes
+  - pymdownx.betterem:
+      smart_enable: all
+  - pymdownx.caret
   - pymdownx.details
-  - pymdownx.superfences
-  - pymdownx.mark
-  - attr_list
   - pymdownx.emoji:
-      emoji_index: !!python/name:materialx.emoji.twemoji
       emoji_generator: !!python/name:materialx.emoji.to_svg
+      emoji_index: !!python/name:materialx.emoji.twemoji
+  - pymdownx.highlight:
+      anchor_linenums: true
+      line_spans: __span
+      pygments_lang_class: true
+  - pymdownx.inlinehilite
+  - pymdownx.keys
+  - pymdownx.magiclink:
+      repo_url_shorthand: true
+      user: shouryade
+      repo: dev-docs
+  - pymdownx.mark
+  - pymdownx.smartsymbols
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
+  - pymdownx.tabbed:
+      alternate_style: true
+  - pymdownx.tasklist:
+      custom_checkbox: true
+  - pymdownx.tilde
 
 copyright: |
   &copy; 2023 <a href="https://github.com/shouryade"  target="_blank" rel="noopener">Shourya De</a>
