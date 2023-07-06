@@ -1,0 +1,3 @@
+## About Me
+
+I am a student at the University of Waterloo studying Computer Science and Business Administration. I am currently on my 2nd co-op term at [Shopify](https://www.shopify.ca/), working on the [Shopify Plus](https://www.shopify.ca/plus) team as a Software Developer. I am also the President of the [UW Computer Science Club](https://csclub.uwaterloo.ca/), where I lead a team of 20+ executives to organize events for 1000+ students. I am passionate about building products that make a positive impact on people's lives. I am also interested in the intersection of technology and business, and how we can use technology to solve business problems.

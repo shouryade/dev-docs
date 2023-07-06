@@ -1,7 +1,9 @@
 ## Working with ML Models using FastAPI
 
-Often for projects, where I am using FastAPI and a simple model return predicted output after taking some inputs, processing/returning the data becomes hard.  
-Here in this example code, `modelrffinal.pickle` which predicts the risk of a person catching COVID-19.
+Often for projects, where I am using FastAPI, a simple model returns some predicted output after taking some inputs.
+In this case processing/returning the data becomes hard.
+
+Here in this example code, `modelrffinal.pickle` is a model which predicts the risk of a person catching COVID-19.
 
 ```py title="app.py" linenums="1" hl_lines="10 11 12 16 17"
 import warnings

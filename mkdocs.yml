@@ -95,5 +95,18 @@ markdown_extensions:
       custom_checkbox: true
   - pymdownx.tilde
 
+nav:
+  - Home:
+      - index.md
+      - about.md
+
+  - FastAPI:
+      ML Models: FastAPI/ml-models.md
+      # Installation: fastapi_install.md
+      # First Steps: fastapi_first.md
+      # Advanced: fastapi_advanced.md
+      # Deployment: fastapi_deploy.md
+
+  # - Projects: projects.md
 copyright: |
   &copy; 2023 <a href="https://github.com/shouryade"  target="_blank" rel="noopener">Shourya De</a>
