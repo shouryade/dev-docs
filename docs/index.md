@@ -13,8 +13,7 @@ I know how we all developers, do mess up our sleep schedules, while trying to fi
 It's always "Bas yeh fix karlu, fir mai **aaram se sounga** (I'll fix this and then I'll sleep peacefully)".
 Thus we end up staying awake till 4 AM, and then we have college at 8 AM the next day. Fixing that one thing takes hours, had I documented it, I could have just looked it up and fixed it in minutes.
 
-[![Cool Dawg](https://i.pinimg.com/originals/f3/6d/27/f36d2783ac3099cde493066550b64f8b.jpg)](https://pushpampc.com/kjhtz2.asp?
-cid=63&shop=dog+with+glasses)
+[![Cool Dawg](https://i.pinimg.com/originals/f3/6d/27/f36d2783ac3099cde493066550b64f8b.jpg)](https://pushpampc.com/kjhtz2.asp?cid=63&shop=dog+with+glasses)
 
 I hope this site helps you get back to your sleep schedule faster.
 
