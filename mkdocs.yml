@@ -1,0 +1,66 @@
+site_name: aaramsesoun.ga
+# site_url: https://-willett.github.io/mkdocs-material-youtube-tutorial/
+theme:
+  name: material
+  logo: material/library
+  features:
+    - navigation.tabs
+    - navigation.sections
+    - toc.integrate
+    - navigation.top
+    - search.suggest
+    - search.highlight
+    - content.tabs.link
+    - content.code.annotation
+    - content.code.copy
+  language: en
+  palette:
+    - scheme: default
+      toggle:
+        icon: material/toggle-switch-off-outline
+        name: Switch to dark mode
+      primary: indigo
+      accent: indigo
+    - scheme: slate
+      toggle:
+        icon: material/toggle-switch
+        name: Switch to light mode
+      primary: indigo
+      accent: indigo
+
+plugins:
+  - search:
+      separator: '[\s\-,:!=\[\]()"/]+|(?!\b)(?=[A-Z][a-z])|\.(?!\d)|&[lg]t;'
+      lang: [en]
+
+extra:
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/shouryade
+    - icon: fontawesome/brands/twitter
+      link: https://twitter.com/shouryade
+    - icon: fontawesome/brands/linkedin
+      link: https://www.linkedin.com/in/shouryade/
+
+markdown_extensions:
+  - toc:
+      title: On this page
+      permalink: true
+  - pymdownx.highlight:
+      anchor_linenums: true
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - admonition
+  - pymdownx.arithmatex:
+      generic: true
+  - footnotes
+  - pymdownx.details
+  - pymdownx.superfences
+  - pymdownx.mark
+  - attr_list
+  - pymdownx.emoji:
+      emoji_index: !!python/name:materialx.emoji.twemoji
+      emoji_generator: !!python/name:materialx.emoji.to_svg
+
+copyright: |
+  &copy; 2023 <a href="https://github.com/shouryade"  target="_blank" rel="noopener">Shourya De</a>
