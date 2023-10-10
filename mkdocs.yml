@@ -106,6 +106,9 @@ nav:
       # First Steps: fastapi_first.md
       # Advanced: fastapi_advanced.md
       # Deployment: fastapi_deploy.md
+  - OS Fixes (Arch Linux):
+      - os_fixes/system-info.md
+    HDMI Fix: os_fixes/hdmi_fix.md
 
   # - Projects: projects.md
 copyright: |
