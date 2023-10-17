@@ -101,14 +101,11 @@ nav:
       - about.md
 
   - FastAPI:
-      ML Models: FastAPI/ml-models.md
-      # Installation: fastapi_install.md
-      # First Steps: fastapi_first.md
-      # Advanced: fastapi_advanced.md
-      # Deployment: fastapi_deploy.md
+      - ML Models in FastAPI: FastAPI/ml-models.md
+
   - OS Fixes (Arch Linux):
-      - os_fixes/system-info.md
-    HDMI Fix: os_fixes/hdmi_fix.md
+      - System Info: os_fixes/index.md
+      - HDMI Fix: os_fixes/hdmi_fix.md
 
   # - Projects: projects.md
 copyright: |
