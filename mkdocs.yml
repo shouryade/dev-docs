@@ -102,6 +102,7 @@ nav:
 
   - FastAPI:
       - ML Models in FastAPI: FastAPI/ml-models.md
+      - NGINX and Docker Compose: FastAPI/nginx-fastapi-compose.md
 
   - OS Fixes (Arch Linux):
       - System Info: os_fixes/index.md
